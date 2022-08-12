@@ -3,47 +3,63 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gao Ming's Personal Site</title>
+    <title>Gao Ming</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <table cellspacing="20">
-        <tr>
-            <td> <img SRC="http://img.mp.itc.cn/upload/20170714/0f4b0548861c4e14b836b09285afda0c_th.jpg"></td>
-            <td>
-                <h1>高鸣</h1>
-                <p><em>一只咸鱼</em></p>
-                <p>不想工作，不做VC，只想<strong>躺平</strong>。转码比预想的难度还要大。数据分析没有意义。 </p>
-            </td>
-        </tr>
-    </table>
+    <div class="top-container">
+        <img class="top-cloud" src="Images/cloud.png" alt="cloud-img">
+        <h1>I am Gao Ming</h1>
+        <h2>try to learn <span class="underline">coding</span></h2>
+        <img class="bottom-cloud" src="Images/cloud.png" alt="cloud-img">
+        <img src="Images/mountain.png" alt="mountain-img">
+    </div>
 
-    <h3>技能</h3>
-    <table>
-        <tr>
-            <td>mysql</td>
-            <td>⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>python</td>
-            <td>⭐⭐</td>
-        </tr>
-    </table>
+    <div class="middle-container">
+        <div class="profile">
+            <img src="Images/madao.jpg" alt="madao">
+            <h2>Hello.</h2>
+            <p class="intro">内心是MADAO大叔，腿毛长，喜欢宅家里边喝酒边抠脚 </p>
+        </div>
+        <hr>
+        <div class="skills">
+            <h2>My Skills.</h2>
+            <div class="skill-row">
+                <img class="pic1" src="Images/computer.png" alt="skills">
+                <h3>在学习的技能</h3>
+                <p>MySQL+Python+前端三件套（HTML+CSS+JavaScript）。内容太多了，学一点忘一点。
+                    每天早上醒来似乎都会忘记昨天学了什么，很惆怅，需要记忆面包。
+                </p>
+            </div>
+            <div class="skill-row">
+                <img class="pic2" src="Images/chillies.png" alt="">
+                <h3>曾经做过什么</h3>
+                <p>早期公司股权投资，消费、互联网、区块链都涉及过。梭哈了一把，运气好居然成了。</p>
+            </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3>废话不多说</h3>
+            <p style="margin-bottom: 50px;">欢迎来骚扰！</p>
+            <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+            <br>
+        </div>
+    </div>
 
-    <hr>
-    <a href="教育背景.html">教育背景</a>
-    </ul>
-    <h3>工作经历 </h3>
-    <ol>
-        <li>2018.7-2019.6，人人公司战略发展部</li>
-        <li>2019.7-2022.3，蜂巧资本</li>
-        <li>2022.4-2022.7，绿色幼稚园</li>
-    </ol>
-    <a href="联系方式.html">联系方式</a>
 
-</body>
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+        <p class="copyright">© Gao Ming 2022.</p>
+    </div>
+
 </body>
 
 </html>
